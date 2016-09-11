@@ -1,0 +1,329 @@
+@media screen and (max-width: 959px) and (min-width: 768px) {
+  .header {
+    margin-bottom: 75px;
+  }
+
+  .header-menu {
+    margin-top: 27px;
+    float: none;
+  }
+
+  .header-logo {
+    float: none;
+    margin-top: 7%;
+  }
+
+  .header_menu-list {
+    margin-left: 6.2%;
+  }
+
+  .header_menu-first-list {
+    margin-left: 0;
+  }
+
+  .wrapper-header {
+    padding-bottom: 5.7%;
+  }
+
+  .screen-header {
+    width: 100%;
+  }
+
+  .slider {
+    width: 100%;
+  }
+
+  .slider-text {
+    width: 40%;
+  }
+
+  .slides-title {
+    margin-top: 18.5%;
+    letter-spacing: -0.75px;
+    margin-left: 8%;
+    font-size: 299%;
+  }
+
+  .slides-subtitle {
+    margin-left: 7.5%;
+    margin-top: 1%;
+    letter-spacing: -0.1px;
+    font-size: 147%;
+  }
+
+  .slides-text {
+    margin-left: 8%;
+    margin-top: 1.5%;
+    font-size: 99%;
+    line-height: 1.65;
+    letter-spacing: -0.35px;
+  }
+
+  .slides_subtitle-hidden {
+    display: none;
+  }
+
+  .wrapper-slider_telephone {
+    left: 57%;
+    top: -5.5%;
+  }
+
+  .blurbs {
+    width: 100%;
+    padding-top: 8.5%;
+    padding-bottom: 9%;
+  }
+
+  .blurbs-settings::before {
+    margin-top: 8%;
+    margin-left: 5.5%;
+  }
+
+  .blurbs-about {
+    margin-left: 0;
+    margin-right: 4%;
+  }
+
+  .blurbs-music {
+    margin-right: 0%;
+  }
+
+  .blurbs-title {
+    font-size: 147%;
+    margin-left: 29%;
+    letter-spacing: -0.25px;
+    margin-top: 5%;
+  }
+
+  .blurbs-text,
+  .blurbs_text-minimal {
+    display: none;
+  }
+
+  .blurbs_text-abridgment {
+    display: block;
+    font-family: Open-Sans;
+    font-size: 100%;
+    margin-top: 1%;
+    margin-left: 28%;
+    color: #fff;
+    letter-spacing: -0.35px;
+    line-height: 1.5;
+  }
+
+  .blurbs-link {
+    margin-top: 2.7%;
+    margin-right: 4%;
+  }
+
+  .main {
+    width: 100%;
+    padding-top: 13.5%;
+  }
+
+  .main-section {
+    width: 42%;
+  }
+
+  .main-testimonials:after {
+    display: none;
+  }
+
+  .testimonials-text,
+  .testimonials_text-minimal {
+    display: none;
+  }
+
+  .wrapper-tesimonials{
+    padding: 8% 5% 14% 12.5%;
+  }
+
+  .main-testimonials {
+    margin-left: 3%;
+  }
+
+  .testimonials-photo {
+    position: absolute;
+    right: 92%;
+    top: 5%;
+  }
+
+  .testimonials_title-span {
+    color: #edbfff;
+    display: block;
+    margin-top: -1%;
+    font-size: 99%;
+  }
+
+  .testimonials-title {
+    font-size: 150%;
+    letter-spacing: -0.25px;
+  }
+
+  .testimonials_text-abridgment {
+    display: block;
+    font-family: Open-Sans;
+    font-size: 100%;
+    color: #454545;
+    margin-top: 2%;
+    letter-spacing: -0.25px;
+    margin-left: -0.5%;
+    line-height: 1.5;
+  }
+
+  .testimonials-control {
+    width: 32%;
+  }
+
+  .main-updates {
+    width: 50%;
+    padding-left: 5.5%;
+  }
+
+  .updates-read_more {
+    display: none;
+  }
+
+  .updates-more_blog {
+    display: block;
+    font-family: LeagueGothic;
+    font-size: 110.5%;
+    color: #454545;
+    float: right;
+    margin-right: 2.5%;
+    margin-right: 1.5%;
+    margin-top: -0.5%;
+  }
+
+  .updates-recent {
+    font-size: 183%;
+  }
+
+  .updates-title {
+    font-size: 98%;
+    letter-spacing: 1px;
+  }
+
+  .updates-first {
+    padding-top: 4%;
+  }
+
+  .updates-list {
+    padding-bottom: 1.1%;
+  }
+
+  .updates_list-middle {
+    padding-bottom: 2.2%;
+  }
+
+  .updates-img {
+    margin-right: 5%;
+  }
+
+  .updates-text,
+  .updates_text-minimal {
+    display: none;
+  }
+
+  .updates_text-abridgment {
+    display: inline-block;
+    font-family: Open-Sans;
+    font-size: 100%;
+    color: #454545;
+    margin-top: 2px;
+    word-spacing: -1.75px;
+  }
+
+  .footer-info {
+    width: 100%;
+    padding-left: 0.2%;
+    padding: 12.2% 0 11.7% 0px;
+  }
+
+  .footer-menu {
+    width: 100%;
+    padding: 6% 0  11% 0;
+  }
+
+  .main-logos {
+    width: 100%;
+    padding: 1.5% 0 0 1.5%;
+  }
+
+  .wrapper-logos {
+    width: 760px;
+    margin: 0 auto;
+  }
+
+  .logos-position {
+    margin-right: 1%;
+  }
+
+  .logos-position_6 {
+    margin-right: 0;
+  }
+
+  .categories-news_categories {
+    display: block;
+    font-size: 155%;
+    font-family: LeagueGothic;
+    color: #454545;
+    letter-spacing: -0.5px;
+  }
+
+  .pingbuller-title,
+  .comments_categories-title,
+  .comments_categories-title {
+    display: none;
+  }
+
+  .info-genereal_style {
+    margin-right: 7.2%;
+    width: 28%;
+    padding-top: 1%;
+  }
+
+  .info-text {
+    display: none;
+  }
+
+  .info_text-minimal {
+    display: block;
+    font-family: Open-Sans;
+    font-size: 100%;
+    color: #787878;
+    margin-top: 2.7%;
+    line-height: 1.6;
+    letter-spacing: -0.35px;
+  }
+
+  .footer_pingbuller-copyright {
+    display: none;
+  }
+
+  .footer-categorias {
+    margin-right: 0%;
+  }
+
+  .footer_menu-ul {
+    float: none;
+    padding-left: 0.35%;
+    padding: 0% 0; 
+  } 
+
+  .footer_menu-list {
+    margin-right: 39px;
+  }
+
+  .footer-designed {
+    margin-right: 3%;
+    margin-top: 4.3%;
+        letter-spacing: -0.15px;
+  }
+
+  .footer-designed:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}

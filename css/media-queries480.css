@@ -1,0 +1,404 @@
+@media screen and (max-width: 767px) and (min-width: 480px) {
+  .header {
+    margin-bottom: 20%;
+    padding-top:  6.5%;
+  }
+
+  .header-menu {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    color: #ffffff;
+    font-family: LeagueGothic;
+    font-size: 110.5%;
+    left: 50%;
+    margin-top: 6.5%;
+    margin-left: -100px;
+  }
+
+  .header_menu-list {
+    margin-left: 0;
+    width: 200px;
+  }
+
+  .header_menu-link {
+    width: 100%;
+    display: block;
+    padding: 5px 0;
+    font-size: 148%;
+  }
+
+  .header_menu-link:hover {
+    padding-bottom: 2px;
+  }
+
+  .header_menu-hidden {
+    display: none;
+  }
+
+  .header-menu:hover .header_menu-hidden {
+    display: block;
+  }
+
+  .header-menu:hover {
+    background: rgba(54,41,62,0.9);
+    border-radius: 5%;
+  }
+
+  .header-menu:hover .header_menu-list {
+    border-top: 1px solid #523f5a;
+    border-bottom: 1px solid #36283e;
+  }
+
+  .header_menu-list:hover {
+    border-bottom: 1px solid #edbfff;
+    background: rgba(43,34,49,0.5);
+  }
+
+  .header-menu:hover .header_menu-first-list,
+  .header-menu:hover .header_menu-last-list {
+    border-radius: 15%;
+  }
+
+  .wrapper-slider_telephone {
+  position: absolute;
+  background: url(../img/telephone-miniatura.png);
+  width: 187px;
+  height: 290px;
+  left: 53.5%;
+  top: -2.5%;
+}
+
+.wrapper-slider_buttton {
+  width: 53px;
+  height: 53px;
+  background: url(../img/button-miniatura.png);
+  position: absolute;
+  top: 36%;
+  left: 51%;
+}
+
+  .wrapper-slider {
+    height: 244px;
+    margin-bottom: 5%;
+  }
+
+  .header-logo {
+    margin: 0 auto;
+    display: block;
+    float: none;
+  }
+
+  .wrapper-header {
+    padding-bottom: 12%;
+  }
+
+  .screen-header {
+    width: 100%;
+  }
+
+  .slider {
+    width: 100%;
+  }
+
+  .header-button_video {
+    left: 65%;
+    top: 38.5%;
+    width: 58px;
+    }
+
+  .slides-text {
+    display: none;
+  }
+
+  .slider-text {
+    width: 100%;
+  }
+
+  .slides_subtitle-hidden {
+    display: none;
+  }
+
+  .slides-title {
+    margin-top: 11%;
+    letter-spacing: -0.75px;
+    margin-left: 6%;
+    font-size: 234%;
+  }
+
+  .slides-subtitle {
+    margin-top: -0.5%;
+    letter-spacing: -0.2px;
+    font-size: 116%;
+    margin-left: 6%;
+  }
+
+  .slider-control {
+    width: 32%;
+  }
+    
+  .blurbs {
+    width: 100%;
+    padding-top: 12.5%;
+    padding-bottom: 11%;
+  }
+
+  .blurbs-about {
+    display: block;
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 12%;
+  }
+
+  .blurbs-music {
+    margin-right: 0%;
+  }
+
+  .blurbs-title {
+    font-size: 147%;
+    margin-left: 1.5%;
+    letter-spacing: -0.1px;
+    margin-top: 4.5%;
+    padding: 0% 0 0% 14%;
+  }
+
+  .blurbs-settings::before,
+  .blurbs-music::before,
+  .blurbs-questions::before {
+    margin-top: 1%;
+    margin-left: 5%;
+  }
+
+  .blurbs_text-abridgment,
+  .blurbs_text-minimal {
+    display: none;
+  }
+
+  .blurbs-text {
+    display: block;
+    font-family: Open-Sans;
+    font-size: 100%;
+    margin-top: 0.2%;
+    margin-left: 15.5%;
+    color: #fff;
+    letter-spacing: -0.35px;
+    line-height: 1.5;
+    padding-right: 2.5%;
+  }
+
+  .blurbs-questions {
+    margin-bottom: 13%;
+  }
+
+  .blurbs-link {
+    margin-top: 3%;
+    margin-right: 4%;
+  }
+
+  .main {
+    width: 100%;
+    padding-top: 7%;
+  }
+
+  .main-section {
+    width: 100%;
+    padding-top: 8%;
+    margin-bottom: 2.5%;
+    margin-right: 0%;
+  }
+
+  .main-testimonials:after {
+    display: none;
+  }
+
+  .testimonials_text-abridgment,
+  .testimonials_text-minimal {
+    display: none;
+  }
+
+  .wrapper-tesimonials{
+    padding: 5.5% 10% 7% 9%;
+  }
+
+  .main-testimonials {
+    margin-left: 7.5%;
+    width: 92%;
+    margin-right: 0;
+  }
+
+  .testimonials-photo {
+    position: absolute;
+    right: 94%;
+    top: 15.5%;
+  }
+
+  .testimonials-title {
+    font-size: 178%;
+    letter-spacing: -0.15px;
+  }
+
+  .testimonials-text {
+    display: block;
+    font-family: Open-Sans;
+    font-size: 100%;
+    color: #454545;
+    margin-top: 4%;
+    letter-spacing: -0.25px;
+    margin-left: -1%;
+    line-height: 1.5;
+  }
+
+  .testimonials-control {
+    width: 29%;
+    margin-top: 6%;
+  }
+
+  .main-updates {
+    padding: 6.5% 0 15% 15.5%;
+  }
+
+   .updates-text,
+   .updates_text-minimal {
+    display: none;
+   }
+
+  .updates-read_more {
+    display: none;
+  }
+
+  .updates-more_blog {
+    display: block;
+    font-family: LeagueGothic;
+    font-size: 110.5%;
+    color: #454545;
+    float: right;
+    margin-right: 13%;
+    margin-top: -1%;
+  }
+
+  .updates_text-abridgment {
+    display: inline-block;
+    font-family: Open-Sans;
+    font-size: 100%;
+    color: #454545;
+    margin-top: 2px;
+    word-spacing: -1.75px;
+  }
+
+  .updates-recent {
+    font-size: 185%;
+    letter-spacing: -0.15px;
+  }
+
+  .updates-title {
+    font-size: 98%;
+    letter-spacing: 0.95px;
+    display: inherit;
+  }
+
+  .updates-first {
+    padding-top: 13px;
+  }
+
+  .updates-list {
+    padding-bottom: 1.3%;
+  }
+
+  .updates-img {
+    margin-right: 4.7%;
+  }
+
+  .footer-info {
+    width: 100%;
+    padding: 16% 0 6.9% 1%;
+  }
+
+  .footer-menu {
+    width: 100%;
+  }
+
+  .main-logos {
+    width: 100%;
+    padding: 0 7.5%;
+    margin-bottom: 4%;
+  }
+
+  .wrapper-logos {
+    width: 400px;
+    margin: 0 auto;
+  }
+
+  .logos-position {
+    margin-left: 3%;
+    margin-right: 0;
+    margin-bottom: 5%;
+  }
+
+  .categories-news_categories {
+    display: block;
+    font-size: 155%;
+    font-family: LeagueGothic;
+    color: #454545;
+    letter-spacing: -0.5px;
+  }
+
+  .pingbuller-title,
+  .comments_categories-title,
+  .comments_categories-title {
+    display: none;
+  }
+
+  .info-genereal_style {
+    margin-right: 6.5%;
+    width: 99%;
+    padding-top: 1%;
+    margin-bottom: 11.5%;
+    padding-left: 1%;
+  }
+
+  .info-text,
+  .info_text-minimal {
+    display: none;
+  }
+
+  .info_text-abridgment {
+    display: block;
+    font-family: Open-Sans;
+    font-size: 100%;
+    color: #787878;
+    margin-top: 1%;
+    line-height: 1.5;
+    letter-spacing: -0.25px;
+  }
+
+  .footer_pingbuller-copyright {
+    display: none;
+  }
+
+  .footer-categorias {
+    margin-right: 0%;
+  }
+
+  .footer_menu-ul {
+    float: none;
+    padding-left: 2.5%;
+    padding-top: 5%;
+   } 
+
+  .footer_menu-list {
+    display: inline-block;
+    margin-right: 4.5%;
+  }
+
+  .footer-designed {
+    float: none;
+    text-align: center;
+    margin-bottom: 18%;
+    margin-top: 7%;
+  }
+
+  .wrapper-footer_menu {
+    padding-top: 5.5%;
+  }
+}
